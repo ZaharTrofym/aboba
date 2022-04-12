@@ -10,6 +10,13 @@ int enterNumber(string text) {
     return num;
 }
 
+string enterString(string text) {
+    string text1;
+    cout << text;
+    cin >> text1;
+    return text1;
+}
+
 int main() {
     
 }
