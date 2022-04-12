@@ -11,5 +11,6 @@ int enterNumber(string text) {
 }
 
 int main() {
-    
+    int x1 = enterNumber("Введіть перве число: "), x2 = enterNumber("Введіть друге число: ");
+    cout << x1 << " + " << x2 << " = " << x1+x2 << endl;
 }
