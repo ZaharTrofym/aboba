@@ -19,5 +19,9 @@ string enterString(string text) {
 
 int main() {
     int count = enterNumber("Введіть кількість повторювань: ");
-    string txt = enterString("Введіть слово або рядок який буде повторюватися: ")
+    string txt = enterString("Введіть слово або рядок який буде повторюватися: ");
+
+    for (int i = 0; i < count; i++) {
+        cout << txt << " " << endl;
+    }
 }
