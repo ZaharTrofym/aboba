@@ -18,5 +18,5 @@ string enterString(string text) {
 }
 
 int main() {
-    
+    int count = enterNumber("Введіть кількість повторювань");
 }
