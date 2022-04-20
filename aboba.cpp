@@ -10,7 +10,18 @@ int enterNumber(string text) {
     return num;
 }
 
+string enterString(string text) {
+    string text1;
+    cout << text;
+    cin >> text1;
+    return text1;
+}
+
 int main() {
-    int x1 = enterNumber("Введіть перве число: "), x2 = enterNumber("Введіть друге число: ");
-    cout << x1 << " + " << x2 << " = " << x1+x2 << endl;
+    int count = enterNumber("Введіть кількість повторювань: ");
+    string txt = enterString("Введіть слово або рядок який буде повторюватися: ");
+
+    for (int i = 0; i < count; i++) {
+        cout << txt << " " << endl;
+    }
 }
